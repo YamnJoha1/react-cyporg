@@ -1,0 +1,11 @@
+.section-header h4 ,
+.section-header span{
+  font-size: 36px;
+  font-weight: var(--font-weight-bold);
+  display: inline;
+  text-decoration: underline;
+}
+.section-header span {
+  color: var(--color-primary);
+  text-decoration: none;
+}

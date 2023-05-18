@@ -1,0 +1,26 @@
+.gaming-card {
+  flex: 1 1 100%;
+}
+
+.gaming-card ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: calc(var(--padding-primary) / 2) 0;
+  border-bottom: 1px solid var(--color-gray);
+  margin: 0;
+}
+
+.gaming-card ul img {
+  border-radius: var(--border-radius-primary);
+  width: 80px;
+  margin: 0;
+}
+
+.gaming-card h4 {
+  font-size: 16px;
+}
+
+.gaming-card span {
+  color: var(--color-gray);
+}
